@@ -17,6 +17,7 @@ y = 0.03
 face = 2_000_000
 couponRate = 0.04
 m = 10
-print(f"{getBondDuration(y, face, couponRate, m, ppy=1):.2f}")
-    return(8.51)
+print(getBondDuration(y, face, couponRate, m, 1))
+
+
 
